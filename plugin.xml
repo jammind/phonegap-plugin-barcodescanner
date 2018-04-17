@@ -20,6 +20,7 @@
     <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
       <string>$CAMERA_USAGE_DESCRIPTION</string>
     </config-file>
+    <preference name="CAMERA_USAGE_DESCRIPTION" default="Do you want Face Sensor to recognize your face using the camera? It's amazing!"/>
     <resource-file src="src/ios/scannerOverlay.xib"/>
     <resource-file src="src/ios/CDVBarcodeScanner.bundle"/>
     <header-file src="src/ios/zxing-all-in-one.h"/>
