@@ -12,19 +12,19 @@ Follows the [Cordova Plugin spec](https://cordova.apache.org/docs/en/latest/plug
 
 This requires phonegap 5.0+ ( current stable v3.0.0 )
 
-    phonegap plugin add phonegap-plugin-barcodescanner
+    cordova plugin add github.com/jammind/phonegap-plugin-barcodescanner --nofetch
 
 Older versions of phonegap can still install via the __deprecated__ id ( stale v2.0.1 )
 
-    phonegap plugin add com.phonegap.plugins.barcodescanner
+    cordova plugin add com.phonegap.plugins.barcodescanner
 
 It is also possible to install via repo url directly ( unstable )
 
-    phonegap plugin add https://github.com/phonegap/phonegap-plugin-barcodescanner.git
+    cordova plugin add https://github.com/phonegap/phonegap-plugin-barcodescanner.git
 
 ## Uninstallation
 
-    phonegap plugin rm phonegap-plugin-barcodescanner
+    coedova plugin rm phonegap-plugin-barcodescanner
 
 
 ### Supported Platforms
